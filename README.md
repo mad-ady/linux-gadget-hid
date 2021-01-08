@@ -37,6 +37,7 @@ $ dmesg
 ```
 ./hid_gadget_test /dev/hidg0 keyboard
 ```
+* Run `sudo ./alt-tab.py`
 * Plugging and unplugging the USB cable does not stop the processes!
 
 # Credits
