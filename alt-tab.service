@@ -1,0 +1,14 @@
+[Unit]
+Description=Inject Alt+TAB
+Requires=create-fake-keyboard.service
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+ExecStartPre=/bin/sleep 10
+ExecStart=/root/linux-gadget-hid-main/alt-tab.py
+
+[Install]
+WantedBy=multi-user.target
+

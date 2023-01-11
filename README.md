@@ -39,6 +39,7 @@ $ dmesg
 ```
 * Run `sudo ./alt-tab.py`
 * Plugging and unplugging the USB cable does not stop the processes!
+* There are two systemd unit files to start this at boot, but need changing to the paths to match your system.
 
 # Credits
 * ashren0 - for the `create-hid.py` code which does the heavy lifting to set things up
